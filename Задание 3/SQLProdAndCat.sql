@@ -5,10 +5,10 @@ CREATE TABLE Products (
 
 INSERT INTO Products
 VALUES
-	(1, 'Совершенный код'),
+	(1, 'РЎРѕРІРµСЂС€РµРЅРЅС‹Р№ РєРѕРґ'),
 	(2, 'ProGit'),
-	(3, 'Книга игрока D&D'),
-	(4, 'Код_тайный язык'),
+	(3, 'РљРЅРёРіР° РёРіСЂРѕРєР° D&D'),
+	(4, 'РљРѕРґ_С‚Р°Р№РЅС‹Р№ СЏР·С‹Рє'),
 	(5, 'CLR via C#');
 
 CREATE TABLE Categories (
@@ -18,9 +18,9 @@ CREATE TABLE Categories (
 
 INSERT INTO Categories
 VALUES
-	(1, 'Книга'),
-	(2, 'Руководство'),
-	(3, 'Журнал');
+	(1, 'РљРЅРёРіР°'),
+	(2, 'Р СѓРєРѕРІРѕРґСЃС‚РІРѕ'),
+	(3, 'Р–СѓСЂРЅР°Р»');
 
 CREATE TABLE ProductCategories (
 	ProductId INT FOREIGN KEY REFERENCES Products(Id),
